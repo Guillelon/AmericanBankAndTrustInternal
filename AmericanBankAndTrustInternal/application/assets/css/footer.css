@@ -1,0 +1,140 @@
+﻿@charset "UTF-8";
+/* You can also use a @include clear to clear columns */
+.prefooter {
+  background: #f3f1f0;
+  border-top: 5px solid #fff;
+  margin-top: 48px; }
+  @media only screen and (max-width: 767px) {
+    .prefooter {
+      border: none; } }
+  .prefooter .footerNav {
+    margin: 0;
+    padding: 6px 0 8px;
+    text-align: center; }
+    .prefooter .footerNav li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 32px; }
+      .prefooter .footerNav li:first-child {
+        margin-left: 0; }
+      .prefooter .footerNav li:last-child {
+        margin-right: 0; }
+      .prefooter .footerNav li a {
+        font-size: 15px;
+        font-size: 1.5rem;
+        color: #a32128;
+        text-decoration: none; }
+        .prefooter .footerNav li a:after {
+          content: "";
+          font-family: FontAwesome;
+          font-weight: normal;
+          font-style: normal;
+          text-decoration: inherit;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          vertical-align: text-bottom;
+          display: inline-block;
+          margin-left: 4px;
+          vertical-align: top; }
+        .prefooter .footerNav li a:hover {
+          color: #f5212c; }
+      @media only screen and (max-width: 959px) {
+        .prefooter .footerNav li {
+          margin: 0 13px; } }
+    @media only screen and (max-width: 767px) {
+      .prefooter .footerNav {
+        padding: 20px 0 12px; }
+        .prefooter .footerNav li {
+          display: block;
+          margin: 0 0 8px; } }
+
+#footer {
+  padding: 46px 0; }
+  #footer .copyright {
+    text-align: center;
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: normal; }
+  #footer .four.columns.right {
+    margin-top: 0; }
+  #footer .compliance > div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px; }
+    #footer .compliance > div a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    #footer .compliance > div:last-of-type {
+      margin-right: 0; }
+  #footer #eh {
+    content: "";
+    width: 51px;
+    height: 50px;
+    background: url(../image/sprites-2x.png);
+    background-position: 0 -50px;
+    background-size: 250px 250px; }
+  #footer #fdic {
+    content: "";
+    width: 60px;
+    height: 37px;
+    background: url(../image/sprites-2x.png);
+    background-position: 0 0;
+    background-size: 250px 250px; }
+  #footer #ncua {
+    content: "";
+    width: 116px;
+    height: 55px;
+    background: url(../image/sprites-2x.png);
+    background-position: 0 -100px;
+    background-size: 250px 250px; }
+  #footer #eol {
+    content: "";
+    width: 42px;
+    height: 50px;
+    background: url(../image/sprites-2x.png);
+    background-position: 0 0;
+    background-size: 250px 250px;
+    background-image: url("../image/eol.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+  #footer #bv-logo {
+    width: 100px;
+    float: right; }
+    #footer #bv-logo svg {
+      height: 18px; }
+  #footer #bv-logo, #footer #bv-logo svg {
+    width: 100px;
+    height: 28px; }
+  #footer .social-icons a i {
+    font-size: 26px;
+    margin: 0 0 0 16px; }
+  @media only screen and (max-width: 767px) {
+    #footer .social-icons {
+      margin: 7px auto;
+      display: block;
+      width: 115px; } }
+  @media only screen and (max-width: 959px) {
+    #footer {
+      padding: 30px 0; }
+      #footer .copyright {
+        font-size: 14px;
+        font-size: 1.4rem; } }
+  @media only screen and (max-width: 767px) {
+    #footer {
+      text-align: center;
+      padding: 25px 0; }
+      #footer .copyright {
+        padding: 0 1em;
+        margin: 20px 0 10px; }
+      #footer .compliance {
+        text-align: center; }
+      #footer #bv-logo {
+        float: none;
+        margin: 0 auto; }
+      #footer #bv-logo, #footer #bv-logo svg {
+        width: 100px;
+        height: 28px; } }
+  @media only screen and (max-width: 419px) {
+    #footer .copyright br {
+      display: none; } }
